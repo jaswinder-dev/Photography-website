@@ -42,7 +42,27 @@
   </li>
 
   <li><b>Set up environment variables:</b> 
-    <p>"<code>.env</code>" files are there in the project directories. Assign them values accordingly.</p>
+    <p>Create "<code>.env</code>" files in both directories (frontend & backend). Assign them values accordingly:</p>
+    <pre>
+      <b>backend/.env :</b>
+      <code>
+          HOST=
+          PORT=
+          MONGO_URL=
+          FRONTEND_URL=
+          DATABASE=
+          SECRET_KEY=
+          JWT_EXPIRES=
+          COOKIE_EXPIRES=
+      </code>
+    </pre>
+    <pre>
+      <b>fontend/.env :</b>
+      <code>
+         VITE_ROUTE=
+         VITE_BACKEND_BASE_URI=
+      </code>
+    </pre>
   </li>
 
   <li><b>Run the development server:</b>
@@ -54,6 +74,20 @@
   </li>
 
 </ol>
+
+## Description of '.env' variables
+<ul>
+  <li>HOST : website host</li>
+  <li>PORT : port number</li>
+  <li>MONGO_URL : url for mongodb database</li>
+  <li>FRONTEND_URL : url of the page fornt-end that will access the backend</li>
+  <li>DATABASE : name of the database</li>
+  <li>SECRET_KEY : key for authentication</li>
+  <li>JWT_EXPIRES : time in days for expiring jwt-token (7d = 7 days)</li>
+  <li>COOKIE_EXPIRES : cookie expiry time (7)</li>
+  <li>VITE_ROUTE : variable to access the admin pannel</li>
+  <li>VITE_BACKEND_BASE_URI : url of the back-end</li>
+</ul>
 
 ## Contact Information
 <p>Designed and developed by: <strong>Jaswinder Singh</strong></p>
