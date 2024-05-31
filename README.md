@@ -28,12 +28,12 @@
     <pre>
       <code>
         git clone https://github.com/jaswinder-dev/Photography-website.git
-        cd photography-website
+        cd Photography-website
       </code>
     </pre>
   </li>
 
-  <li><b>Install dependencies:</b>
+  <li><b>Install dependencies: (for each frontend & backend, separately)</b>
     <pre>
       <code>
         npm install
@@ -65,7 +65,7 @@
     </pre>
   </li>
 
-  <li><b>Run the development server:</b>
+  <li><b>Run the development server: (for each frontend & backend, separately)</b>
     <pre>
       <code>
         npm run dev
